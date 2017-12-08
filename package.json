@@ -9,7 +9,7 @@
   "engines": {
     "node": ">=7.7.1"
   },
-  "bin": "./index.js",
+  "bin" : { "prerender" : "./index.js" }, 
   "dependencies": {
     "commander": "^2.12.2",
     "html-minifier": "^3.5.7",
