@@ -1,6 +1,6 @@
 {
   "name": "puppeteer-prerenderer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Uses puppeteer to get the HTML of a page and save it to a file (or optionally output it to the console).",
   "main": "index.js",
   "repository": "https://github.com/GoodeUser/puppeteer-prerenderer.git",
