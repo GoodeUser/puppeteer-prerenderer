@@ -1,6 +1,6 @@
 {
   "name": "puppeteer-prerenderer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Uses puppeteer to get the HTML of a page and save it to a file (or optionally output it to the console).",
   "main": "index.js",
   "repository": "https://github.com/GoodeUser/puppeteer-prerenderer.git",
@@ -9,7 +9,9 @@
   "engines": {
     "node": ">=7.7.1"
   },
-  "bin" : { "prerender" : "./index.js" }, 
+  "bin": {
+    "prerender": "./index.js"
+  },
   "dependencies": {
     "commander": "^2.12.2",
     "html-minifier": "^3.5.7",
