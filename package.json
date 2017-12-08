@@ -5,5 +5,10 @@
   "main": "index.js",
   "repository": "https://github.com/GoodeUser/puppeteer-prerenderer.git",
   "author": "Kyle Goode <Kyle@spyfu.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.12.2",
+    "html-minifier": "^3.5.7",
+    "puppeteer": "^0.13.0"
+  }
 }
