@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const program = require('commander');
 const puppeteer = require('puppeteer');
 const fs = require('fs');
@@ -12,6 +13,10 @@ program
     .option('-m, --minify', 'if flag is passed will minify html (and inline js/css)');
 
 program.parse(process.argv);
+
+function renderPage() {
+
+}
 
 (async () => {
     const browser = await puppeteer.launch({ headless: true });
@@ -47,3 +52,7 @@ program.parse(process.argv);
     fs.writeFileSync(program.output, content);
     await browser.close();
 })();
+
+module.exports = {
+
+}

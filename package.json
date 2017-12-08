@@ -6,6 +6,7 @@
   "repository": "https://github.com/GoodeUser/puppeteer-prerenderer.git",
   "author": "Kyle Goode <Kyle@spyfu.com>",
   "license": "MIT",
+  "engines": { "node": ">=7.7.1"},
   "dependencies": {
     "commander": "^2.12.2",
     "html-minifier": "^3.5.7",
